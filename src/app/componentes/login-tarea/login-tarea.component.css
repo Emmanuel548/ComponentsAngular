@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #9dfafd; /* Un fondo gris claro */
+    text-align: center; /* Texto centrado */
+    
+}
+.input-group label {
+    margin-bottom: 8px; /* Espacio entre la etiqueta y el campo */
+    font-size: 16px; /* Tamaño de fuente moderado */
+}
+
+input[type="text"] {
+    
+    border: 2px solid #dcdcdc; /* Borde más definido */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    margin-bottom: 20px; /* Espacio debajo de cada campo */
+}
+
+input[type="password"]{
+    border: 2px solid #dcdcdc; /* Borde más definido */
+   
+}
+button {
+    border: none; /* Sin bordes */
+    background-color: #4CAF50; /* Color verde vibrante */
+    color: white; /* Texto en blanco */
+    font-size: 16px; /* Tamaño de fuente grande */
+    cursor: pointer; /* Cursor de mano para indicar interactividad */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+button:hover {
+    background-color: #45a049; /* Color ligeramente más oscuro al pasar el mouse */
+}
+
+.social-login button {
+    margin-top: 10px; /* Espacio arriba para separar del formulario principal */
+    background-color: #ffc53d; /* Fondo gris para botones sociales */
+    margin-right: 6px; /* Espacio entre botones */
+}
